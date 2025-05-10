@@ -3,7 +3,7 @@ import SettingSection from "./SettingSection";
 import ToggleSwitch from "./ToggleSwitch";
 import { useState } from "react";
 
-const Security = () => {
+function Security() {
 	const [twoFactor, setTwoFactor] = useState(false);
 
 	return (

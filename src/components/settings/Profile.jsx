@@ -1,7 +1,7 @@
 import { User } from "lucide-react";
 import SettingSection from "./SettingSection";
 
-const Profile = () => {
+function Profile() {
 	return (
 		<SettingSection icon={User} title={"Profile"}>
 			<div className='flex flex-col sm:flex-row items-center mb-6'>
